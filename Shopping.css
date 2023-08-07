@@ -1,0 +1,125 @@
+
+.heading{
+    color:green;
+    font-size: 15px;
+    padding-left: 15px;
+}
+.firstbox{
+    border: 1px solid gray;
+    padding:8px;
+    margin:6px;
+    width:30%;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 18px;
+   border-radius: 4px;
+}
+.thirdbox{
+    border: 1px solid gray;
+    padding:8px;
+    margin:6px;
+    width:30%;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 18px;
+   border-radius: 4px;
+}
+
+
+
+.special{
+    padding-left: 25px;
+    color: black;
+    font-size: 12px;
+}
+.style{
+    color:  gray;
+    font-size: 12px;
+}
+.secondbox{
+    border: 1px solid green;
+    padding:8px;
+    background-color: aquamarine;
+    width: 30%;
+    border-radius: 4px;
+}
+.insidesecondbox{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sizetext{
+    font-size: 12px;
+    font-family: 'Times New Roman';
+    padding-left: 18px;
+}
+.secondpara{
+    text-decoration: line-through;
+    font-size: 12px;
+    font-family: 'Times New Roman';
+    padding-top: 8px;
+
+}
+.secondhalf{
+    display: flex;
+    
+}
+.sizestyle{
+    margin: 6px;
+}
+.thirdpara{
+    color: green;
+    font-size: 12px;
+    font-family: 'Times New Roman';
+
+}
+.fourthpara{
+    color: black;
+    font-size: 12px;
+    font-family: 'Times New Roman';
+}
+.lastparas{
+    display: flex;
+    justify-content: space-between;
+    width:30%;
+}
+.shippingpara{
+    color:darkgreen;
+    font-size: 14px;
+    font-family:'Times New Roman'; 
+}
+.pricepara{
+    font-size: 14px;
+    font-family:'Times New Roman'; 
+}
+.button{
+    width:30%;
+    height: 40%;
+    padding: 10px;
+    color:#ffffff;
+    background-color: green;
+    border-radius: 4px;
+    border: none;
+}
+.copyrightpara{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+}
+.copyrightparastyle{
+    font-size: 12px;
+    font-family: 'Times New Roman';
+}
+
+@media screen and (min-width:768px){
+    .firstandthirdbox{
+        width:35%
+    }
+
+    .secondbox{
+        width: 30%;
+    }
+    .button{
+        width:35%;
+    }
+}
